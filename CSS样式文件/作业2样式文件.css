@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: #07cbc9;
+	position: fixed;
+	z-index: 3;
+}
+.header img{
+	float: left;
+	padding-left: 100px;
+}
+.header ul{
+	float: right;
+	padding-right: 50px;
+}
+.header ul li{
+	list-style: none;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei UI";
+	height: 50px;
+	line-height: 50px;
+	margin: 0 10px;
+	float: left;
+}
+.header ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.header ul li a:hover{
+	cursor: pointer;
+	color: orange;
+}
+.banner{
+	width: 100%;
+	height: 500px;
+	padding-top: 50px;
+}
+.banner img{
+	width: 100%;
+	height: 500px;
+}
+.banner .toplayer0{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 50px;
+/*	margin-top: -200px;
+	left: 674px;
+	margin-left: -150px;*/
+	background-color: #000;
+	opacity: 0.3;
+}
+.banner .toplayer{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 367px;
+	margin-top: -200px;
+	left: 674px;
+	margin-left: -150px;
+}
+.banner .toplayer .in01 input,.banner .toplayer .in03 input{
+	width: 300px;
+	height: 30px;
+	border: 1px #fff solid;
+	margin: 5px;
+	background-color: transparent;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+}
+.banner .toplayer .in02 textarea{
+	width: 300px;
+	height: 100px;
+	border: 1px #fff solid;
+	margin: 5px;
+	background-color: transparent;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+}
+.banner .toplayer .in01 input:hover{
+	border: #07cbc9 1px solid;
+}
+.banner .toplayer .in02 textarea:hover{
+	border: #07cbc9 1px solid;
+}
+.banner .toplayer .in03 input:hover{
+	background-color: #07cbc9;
+	border-style: none;
+}
+.middle{
+	width: 100%;
+
+}
+.middle .about .a-top{
+	width: 500px;
+	height: 150px;
+	margin: 25px auto;
+	text-align: center;
+}
+.middle .about .a-top .word01{
+	font-size: 30px;
+	font-weight: bold;
+}
+.middle .about .a-top .word02{
+	width: 25px;
+	color: blue;
+	margin: 5px auto;
+}
+.middle .about .a-top .word03{
+	font-size: 15px;
+	color: #7d7f7f;
+}
+.middle .about .a-middle{
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+.middle .about .a-middle .a-m01 img{
+	width: 100%;
+}
+.middle .about .a-middle .a-m02{
+	position: absolute;
+	top: 0;
+	left: -180px;
+}
+.middle .about .a-middle .a-m02 p{
+	width: 180px;
+	height: 100px;
+	font-size: 30px;
+	margin-left: 10px;
+}
+.middle .about .a-middle .a-m02 .a-m021{
+	width: 300px;
+	height: 200px;
+	border: 1px gray solid;
+	background-color: #fff;
+	opacity: 0.5;
+}
+.middle .about .a-middle .a-m02 .a-m022{
+	width: 300px;
+	height: 200px;
+	color: #000;
+	font-size: 15px;
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	padding-top: 10px;
+}
+.middle .about .a-middle .a-m02 .a-m022 button{
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	background-color: #000;
+	margin-top: 20px;
+	border: none;
+}
+button:hover{
+	opacity: 0.3;
+	border: 1px #000 solid;
+}
+.middle .about .a-middle .a-m03{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	right: -200px;
+}
+.middle .about .a-middle .a-m031,.middle .about .a-middle .a-m032{
+	width: 200px;
+	height: 100px;
+	border: 1px #07cbc9 solid;
+	text-align: center;
+	margin: 20px;
+}
+.middle .about .a-middle .a-m031 .a-m0311,.middle .about .a-middle .a-m031 .a-m0312,.middle .about .a-middle .a-m031 .a-m0313,
+.middle .about .a-middle .a-m032 .a-m0321,.middle .about .a-middle .a-m032 .a-m0322,.middle .about .a-middle .a-m032 .a-m0323{
+	line-height: 40px;
+}
+.middle .about .a-middle .a-m031 .a-m0311,.middle .about .a-middle .a-m032 .a-m0321{
+	font-size: 30px;
+	font-weight: bold;
+}
+hr{
+	width: 30px;
+	height: 1px;
+	background-color: #07cbc9;
+	margin: 10px auto 0 auto;
+}
+.middle .about .a-bottom{
+	width: 100%;
+	height: 674px;
+}
+.middle .about .a-bottom .a-b01{
+	width: 25%;
+	height: 337px;
+	float: left;
+}
+.middle .about .a-bottom .a-b01 img{
+	width: 100%;
+	height: 337px;
+}
+.middle .about .a-bottom .a-b02{
+	width: 25%;
+	height: 317px;
+	background-color: #07cbc9;
+	float: left;
+	padding-top: 20px;
+}
+.middle .about .a-bottom .a-b02 div{
+	width: 80%;
+	margin: 5px auto;
+	color: #fff;
+}
+.middle .about .a-bottom .a-b02 button{
+	width: 100px;
+	height: 40px;
+	background-color: #000;
+	color: #fff;
+	margin-top: 20px;
+	border: none;
+	margin: 50px 118px;
+}
+.middle .about .a-bottom .a-b02 .a-b021{
+	font-size: 20px;
+	font-weight: bold;
+}
+.middle .about .a-bottom .a-b02 .a-b022{
+	font-size: 15px;
+}
+.middle .about .a-bottom .a-b02 .a-b023{
+	font-size: 12px;
+}
+.middle .gallery{
+	width: 630px;
+	margin: 25px auto;
+	text-align: center;
+}
+.middle .gallery .word01{
+	font-size: 30px;
+	font-weight: bold;
+}
+.middle .gallery .word02{
+	width: 25px;
+	color: blue;
+	margin: 5px auto;
+}
+.middle .gallery .word03{
+	font-size: 15px;
+	color: #7d7f7f;
+}
+.middle .gallery .word04{
+	width: 630px;
+	height: 400px;
+	margin: 50px auto;
+}
+.middle .gallery .word04 dl{
+	list-style: none;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 5px;
+}
+.clear{clear: both;}
+.middle .gallery .word04 dl dt{
+	width: 200px;
+	height: 150px;
+}
+.middle .gallery .word04 dl dt img{
+	width: 200px;
+	height: 150px;
+}
+.middle .gallery .word04 dl dd{
+	width: 190px;
+	height: 40px;
+	background-color: #000;
+	color: #fff;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 40px;
+}
+.footer{
+	width: 100%
+	height: 50px;
+	background-color: #07cbc9;
+	color: #fff;
+	text-align: center;
+}
+.footer div{
+	line-height: 50px;
+	font-size: 12px;
+}
