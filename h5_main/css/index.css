@@ -1,0 +1,18 @@
+/* all tags */
+*{ margin: 0; padding: 0; }
+dl,dt,dd{ list-style: none; }
+/* section */
+section{ width: 1200px; margin: 0 auto; }
+section aside{ width: 450px; height: 500px; float: left; }
+h1{ font-size: 30px; margin-bottom: 20px; }
+h1 span{ color: #7c7c7c; }
+/* left */
+section aside dl{ position: relative; height: 90px; margin-bottom: 20px; }
+section aside dl dt{ text-decoration: underline; font-weight: bold; position: absolute; left: 90px; height: 16px; line-height: 16px; }
+section aside dl dd:last-of-type{ position: absolute; top: 20px; left: 90px; }
+section aside dl dd.num{ position: absolute; left: 19px; top: 12px; font-size: 20px; color: #fff; }
+section aside dl dd{ position: absolute; left: 0; }
+/* right */
+section article{ width: 700px; height: 500px; float: right; }
+section article p{ margin-bottom: 20px; }
+section article img{ width: 100%; }
